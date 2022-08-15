@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Catamaran&family=Libre+Franklin&family=Montserrat:wght@400;700&family=Roboto:ital@1&display=swap');
+
+*{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.dashboard, section.panel {
+    margin-top: 9rem;
+}
+
+section.about{
+    color: white;
+    margin-top: 10rem;
+    background-size: 100%;
+}
+
+body{
+    background-image: url(../img/royal-blue-wallpaper-preview.jpg);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.navbar.navbar-expand-lg.bg-dark{
+    background-color: rgb(21, 149, 188) !important;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: deeppink;
+}
+
+i.fa-brands.fa-facebook-f.fa-2xl:hover{
+    color: blue;
+}
+
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: darkblue;
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-width: 0;
+}
